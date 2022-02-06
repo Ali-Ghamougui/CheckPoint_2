@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(5, 117, 89);
+   
+}
+.About {
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 80px;
+}
+.About > h3 {
+    font-size: 30px;
+    margin: 5px;
+}
+.About > p {
+    font-size: 20px;
+}
+nav > a {     
+    position: relative ;
+    text-align: center;
+    left: 250px;
+    font-size: 25px;
+word-spacing: 20px ;
+text-decoration:chartreuse;
+color: rgb(5, 202, 71);
+margin: 30px;
+background-position: initial;
+font-family:monospace;
+font-weight:initial;
+
+}
+
+nav {
+    background-color: cornsilk;
+padding: 10px;
+border-radius: 50px;
+background-size: cover; 
+
+}
+html {
+     
+        scroll-behavior:smooth;
+      
+}
+.Work {
+    text-align: center ;
+    margin-bottom: 80px;
+}
+.Work > p {
+    margin-right: 500px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.Work > img {
+    position: absolute;
+    top: 450px;
+    right: 80px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.Work > p, h3 {
+    margin-right: 500px;
+}
+.Work > h3 {
+    font-size: 30px;
+    position: absolute;
+    top: 380px;
+    left: -150px;
+}
+
+.Resume {
+    text-align: center;
+    margin-bottom: -120px;
+}
+.Resume > p, h3 {
+    margin-left: 500px;
+}
+.Resume > audio, video {
+    position: relative;
+    right: 600px;
+    top:-250px;
+    border: 5px solid black;
+    border-radius: 50px;
+    
+}
+.Resume > audio {
+    top: -150px;
+    right: 270px;
+}
+.Resume > p {
+    font-size: 20px;
+}
+.Resume > h3 {
+    font-size: 30px;
+    position: absolute ;
+    top: 700px;
+   right: -150px;
+}
+.Contact > h3 {
+ font-size: 30px;
+ margin-top: -50px;
+}
+.Contact {
+    text-align: center;
+}
+input[type=text] {
+    padding:10px;
+    margin:10px 0; 
+    border:0;
+  box-shadow:0 0 20px 6px rgba(0,0,0,0.06);
+  border-radius:10px;
+  width: 30%;
+  }
+  input[type=email] {
+    padding:10px;
+    margin:10px 0; 
+    box-shadow:0 0 20px 6px rgba(0,0,0,0.06);
+  border-radius:10px;
+  width: 30%;
+  }input[type=number] {
+    padding:10px;
+    margin:10px 0; 
+    box-shadow:0 0 20px 6px rgba(0,0,0,0.06);
+  border-radius:10px;
+  width: 30%;
+  }select {
+    padding:10px;
+    margin:10px 0; 
+    box-shadow:0 0 20px 6px rgba(0,0,0,0.06);
+  border-radius:10px;
+  width: 30%;
+  }textarea {
+    padding:10px;
+    margin:10px 0; 
+    border : 3px solid black ;
+    box-shadow:0 0 20px 6px rgba(0,0,0,0.06);
+  border-radius:10px;
+  width: 30%;
+  }
+  Button {
+    padding:10px;
+    margin:10px 0; 
+    box-shadow:0 0 20px 6px rgba(0,0,0,0.06);
+  border-radius:10px;
+  width: 30%;
+  }
+  label {
+      font-size: 20px;
+      font-weight: bold;
+  }
+  button {
+      background-color:cornsilk ;
+      color:rgb(5, 202, 71) ;
+      
+  }
+  footer{
+       background-color: rgb(185, 185, 185);
+       margin: -7px;
+       font-size: 20px;
+       text-decoration: none;
+  }
